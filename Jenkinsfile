@@ -6,7 +6,8 @@ pipeline {
   environment {
     LOGIN_URL = 'https://api.g66666.hk.my-demo.tech'
     LOGIN_PORT = '6443'
-    PROJECT = 'springclient-ns'
+    PROJECT = 'jenjins-demo'
+'
   }  
   stages {
     stage ('Initialize') {
