@@ -24,7 +24,7 @@ pipeline {
           		  usernameVariable: 'USERNAME',
           		  passwordVariable: 'PASSWORD',
           		)]) {
-          sh "oc login ${env.LOGIN_URL}:${env.LOGIN_PORT} --token=${PASSWORD}"
+          sh "oc login ${env.LOGIN_URL}:${env.LOGIN_PORT} --insecure-skip-tls-verify=true --token=${PASSWORD}"
         }
 
       }
