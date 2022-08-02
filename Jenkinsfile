@@ -7,8 +7,8 @@ pipeline {
     LOGIN_URL = 'https://api.g66666.hk.my-demo.tech'
     LOGIN_PORT = '6443'
     PROJECT = 'jenjins-demo'
-'
   }  
+  
   stages {
     stage ('Initialize') {
       steps {
